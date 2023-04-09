@@ -1,0 +1,221 @@
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='psychometric.css') }}">
+	<link rel="icon" type="image/x-icon" href="/static/twitter.png">
+	<title>Psychometric Analysis</title>
+</head>
+<body>
+
+	<h1><b><u><center>Check Your Mental Health</center></u></b></h1>
+	<h3>
+	<font color="blue">
+	<form name="myform">
+		1. How do you feel when you are alone?<br>
+		<input type="radio" name="q1" value="a">Happy<br>
+		<input type="radio" name="q1" value="b">Unhappy<br>
+		<input type="radio" name="q1" value="c">Neither happy nor unhappy<br>
+		<input type="radio" name="q1" value="d">Can not feel anything<br>
+		2. How do you feel with people around you?<br>
+		<input type="radio" name="q2" value="a">Happy<br>
+		<input type="radio" name="q2" value="b">Unhappy<br>
+		<input type="radio" name="q2" value="c">Neither happy nor unhappy<br>
+		<input type="radio" name="q2" value="d">Can not feel anything<br>
+		3. Do you have friends(human/animal/others)?<br>
+		<input type="radio" name="q3" value="a">Yes<br>
+		<input type="radio" name="q3" value="b">No<br>
+		4. Do you spend time with friend/friends?<br>
+		<input type="radio" name="q4" value="a">Sometimes<br>
+		<input type="radio" name="q4" value="b">Very often<br>
+		<input type="radio" name="q4" value="c">Everytime<br>
+		<input type="radio" name="q4" value="d">Never<br>
+		5. How often do you go out with friend/friends?<br>
+		<input type="radio" name="q5" value="a">Sometimes<br>
+		<input type="radio" name="q5" value="b">Very often<br>
+		<input type="radio" name="q5" value="c">Everytime<br>
+		<input type="radio" name="q5" value="d">Never<br>
+		6. What is your relationship status?<br>
+		<input type="radio" name="q6" value="a">Single<br>
+		<input type="radio" name="q6" value="b">Married<br>
+		<input type="radio" name="q6" value="c">Widow<br>
+		<input type="radio" name="q6" value="d">Separated<br>
+		<input type="radio" name="q6" value="e">Divorced<br>
+		7. How many hours do you sleep per day?<br>
+		<input type="radio" name="q7" value="a">Less than 5<br>
+		<input type="radio" name="q7" value="b">5-7<br>
+		<input type="radio" name="q7" value="c">7-9<br>
+		<input type="radio" name="q7" value="d">More than 9<br>
+		8. How is your quality of sleep?<br>
+		<input type="radio" name="q8" value="a">Normal<br>
+		<input type="radio" name="q8" value="b">Good<br>
+		<input type="radio" name="q8" value="c">Neither good nor bad<br>
+		<input type="radio" name="q8" value="d">Bad<br>
+		9. How often do you smoke/drink?<br>
+		<input type="radio" name="q9" value="a">Once in a few weeks<br>
+		<input type="radio" name="q9" value="b">Once everyday<br>
+		<input type="radio" name="q9" value="c">More than once everyday<br>
+		<input type="radio" name="q9" value="d">Never<br>
+		10. During the past 4 weeks, have you had any problems with your work or daily life due to any emotional problems, such as feeling depressed, sad or anxious?<br>
+		<input type="radio" name="q10" value="a">Yes, once in a while<br>
+		<input type="radio" name="q10" value="b">Very often<br>
+		<input type="radio" name="q10" value="c">Everytime<br>
+		<input type="radio" name="q10" value="d">Never<br>
+		11. Have you felt particularly low or down for more than 2 weeks in a row?<br>
+		<input type="radio" name="q11" value="a">Sometimes<br>
+		<input type="radio" name="q11" value="b">Very often<br>
+		<input type="radio" name="q11" value="c">Not so often<br>
+		<input type="radio" name="q11" value="d">Never<br>
+		12. During the past two weeks, how often has your mental health affected your relationships?<br>
+		<input type="radio" name="q12" value="a">Sometimes<br>
+		<input type="radio" name="q12" value="b">Very often<br>
+		<input type="radio" name="q12" value="c">Not so often<br>
+		<input type="radio" name="q12" value="d">Never<br>
+		13. Have you seen a therapist in the recent past?<br>
+		<input type="radio" name="q13" value="a">Yes<br>
+		<input type="radio" name="q13" value="b">No<br>
+		14. Do you feel anxiety?<br>
+		<input type="radio" name="q14" value="a">Sometimes<br>
+		<input type="radio" name="q14" value="b">Very often<br>
+		<input type="radio" name="q14" value="c">Everytime<br>
+		<input type="radio" name="q14" value="d">Never<br>
+		15. Have you noticed any change in your diet habits?<br>
+		<input type="radio" name="q15" value="a">Yes, I eat too much<br>
+		<input type="radio" name="q15" value="b">Yes, I don't feel hungry<br>
+		<input type="radio" name="q15" value="c">Not much<br>
+		<input type="radio" name="q15" value="d">No change<br>
+		16. When was the last time you were really happy?<br>
+		<input type="radio" name="q16" value="a">Few days ago<br>
+		<input type="radio" name="q16" value="b">Few weeks ago<br>
+		<input type="radio" name="q16" value="c">Few months ago<br>
+		<input type="radio" name="q16" value="d">Few years ago<br>
+		<input type="radio" name="q16" value="e">I do not remember<br>
+		<input type="radio" name="q16" value="f">Never<br>
+		17. When was the last time you felt good about yourself?<br>
+		<input type="radio" name="q17" value="a">Few days ago<br>
+		<input type="radio" name="q17" value="b">Few weeks ago<br>
+		<input type="radio" name="q17" value="c">Few months ago<br>
+		<input type="radio" name="q17" value="d">Few years ago<br>
+		<input type="radio" name="q17" value="e">I do not remember<br>
+		<input type="radio" name="q17" value="f">Never<br>
+		18. Do you have any purpose of living?<br>
+		<input type="radio" name="q18" value="a">Strongly yes<br>
+		<input type="radio" name="q18" value="b">Strongly no<br>
+		<input type="radio" name="q18" value="c">Neither yes nor no<br>
+		<input type="radio" name="q18" value="d">Never thought<br>
+		19. Do you feel any purpose of living?<br>
+		<input type="radio" name="q19" value="a">Strongly yes<br>
+		<input type="radio" name="q19" value="b">Strongly no<br>
+		<input type="radio" name="q19" value="c">Neither yes nor no<br>
+		<input type="radio" name="q19" value="d">Never felt<br>
+		20. Do you have any anger issue?<br>
+		<input type="radio" name="q20" value="a">Sometimes<br>
+		<input type="radio" name="q20" value="b">Very often<br>
+		<input type="radio" name="q20" value="c">Everytime<br>
+		<input type="radio" name="q20" value="d">Never<br>
+		21. Have you ever felt to die?<br>
+		<input type="radio" name="q21" value="a">Sometimes<br>
+		<input type="radio" name="q21" value="b">Very often<br>
+		<input type="radio" name="q21" value="c">Everytime<br>
+		<input type="radio" name="q21" value="d">Never<br>
+		22. How often do you experience calm and peaceful?<br>
+		<input type="radio" name="q22" value="a">Most of the time<br>
+		<input type="radio" name="q22" value="b">Always<br>
+		<input type="radio" name="q22" value="c">Once in a while<br>
+		<input type="radio" name="q22" value="d">Never<br>
+		23. How often do you experience energetic?<br>
+		<input type="radio" name="q23" value="a">Most of the time<br>
+		<input type="radio" name="q23" value="b">Always<br>
+		<input type="radio" name="q23" value="c">Once in a while<br>
+		<input type="radio" name="q23" value="d">Never<br>
+		24. How often do you experience gloomy?<br>
+		<input type="radio" name="q24" value="a">Most of the time<br>
+		<input type="radio" name="q24" value="b">Always<br>
+		<input type="radio" name="q24" value="c">Once in a while<br>
+		<input type="radio" name="q24" value="d">Never<br>
+		25. How often do you experience angry?<br>
+		<input type="radio" name="q25" value="a">Most of the time<br>
+		<input type="radio" name="q25" value="b">Always<br>
+		<input type="radio" name="q25" value="c">Once in a while<br>
+		<input type="radio" name="q25" value="d">Never<br>
+
+	<center><input type="button" value="Submit" onclick="check()"></center>
+	</form>
+	<script>
+		function check(){
+			var q1=document.myform.q1.value;
+			var q2=document.myform.q2.value;
+			var q3=document.myform.q3.value;
+			var q4=document.myform.q4.value;
+			var q5=document.myform.q5.value;
+			var q6=document.myform.q6.value;
+			var q7=document.myform.q7.value;
+			var q8=document.myform.q8.value;
+			var q9=document.myform.q9.value;
+			var q10=document.myform.q10.value;
+			var q11=document.myform.q11.value;
+			var q12=document.myform.q12.value;
+			var q13=document.myform.q13.value;
+			var q14=document.myform.q14.value;
+			var q15=document.myform.q15.value;
+			var q16=document.myform.q16.value;
+			var q17=document.myform.q17.value;
+			var q18=document.myform.q18.value;
+			var q19=document.myform.q19.value;
+			var q20=document.myform.q20.value;
+			var q21=document.myform.q21.value;
+			var q22=document.myform.q22.value;
+			var q23=document.myform.q23.value;
+			var q24=document.myform.q24.value;
+			var q25=document.myform.q25.value;
+			var count=0;
+			var perc=0;
+
+			if(q1=="a"||q1=="c"){count++;}
+			if(q2=="a"||q2=="c"){count++;}
+			if(q3=="a"){count++;}
+			if(q4=="a"||q4=="b"||q4=="c"){count++;}
+			if(q5=="a"||q5=="b"||q5=="c"){count++;}
+			if(q6=="c"||q6=="d"||q6=="e"){count++;}
+			if(q7=="b"||q7=="c"){count++;}
+			if(q8=="a"||q8=="b"||q8=="c"){count++;}
+			if(q9=="a"||q9=="d"){count++;}
+			if(q10=="d"){count++;}
+			if(q11=="d"){count++;}
+			if(q12=="d"){count++;}
+			if(q13=="b"){count++;}
+			if(q14=="d"){count++;}
+			if(q15=="c"||q15=="d"){count++;}
+			if(q16=="a"||q16=="b"){count++;}
+			if(q17=="a"||q17=="b"){count++;}
+			if(q18=="a"){count++;}
+			if(q19=="a"){count++;}
+			if(q20=="a"||q20=="d"){count++;}
+			if(q21=="d"){count++;}
+			if(q23=="a"||q23=="b"){count++;}
+			if(q24=="d"){count++;}
+			if(q25=="c"||q25=="d"){count++;}
+
+			//alert(count);
+			function newTab() {
+            window.open(
+            "{{url_for('updates') }}", "_blank");
+        }
+
+
+
+			perc=(count/25)*100;
+			if(perc>60){prompt("The Result Is - "+ perc,"Your mental health is fine.");}
+			else if(perc==0){
+				alert("kindly fillup the form!");
+			}
+			else{
+			alert("You will be redirected to consult with a psychiatrist.")
+			newTab();
+
+			}
+
+		}
+	</script>
+</font></h3>
+</body>
+</html>
